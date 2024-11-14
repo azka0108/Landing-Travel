@@ -1,0 +1,27 @@
+body {
+  background-color: #fcaeae;
+  height: 100%;
+}
+form {
+  width: 30%;
+  margin: auto;
+  padding-top: 200px;
+  
+}
+.bg {
+  background-color: #3b89e3;
+}
+.btn-color {
+  background-color: #3ba3e9;
+  border: none;
+}
+
+.btn-color:hover {
+  background-color: #cf9d67; /* Warna yang lebih gelap saat hover */
+  transform: scale(1.05); /* Efek sedikit membesar */
+}
+.text-center{
+  color: #e47f26;
+  text-align: center;
+  font-weight: bold;
+}

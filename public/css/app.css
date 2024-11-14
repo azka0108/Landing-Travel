@@ -1,0 +1,557 @@
+body{
+    text-decoration: none;
+   
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+
+.logo{
+    
+    height:5px; /* Sesuaikan tinggi logo secara proporsional */
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+.gambar{
+    height: 60px;
+    width: auto;
+
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+a.tbl-biru:hover {
+    background: #a4abb9;
+    text-decoration: none;
+}
+
+.judul{
+    text-align: center;
+    color: #f31313;
+}
+.bawahjudul{
+    text-align: center;
+    color: #888080;
+}
+
+.gambarawal{
+    width: 35%;
+    float: right;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'arial';
+    color: #000000;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'arial';
+    color: #000000;
+}
+.hurufkecil{
+    font-family:'arial';
+    color: #706969;
+}
+
+h2 {
+    font-family:'arial';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #ff733c;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #ff2b2b;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 15px 15px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.tbl-pink:hover {
+    background: #e5e6e7;
+    text-decoration: none;
+}
+
+
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartutravel {
+    
+    width: 190px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    align-items: center; 
+    
+   
+   
+}
+.gambartravel{
+   flex: 0 0 0rem;
+   box-shadow: 0 .1rem rgb( 0,0,0,.1);
+   border-radius: 8 8rem;
+   border: .1rem solid rgb( 0,0,0,.1) ;
+   position: relative;
+    
+}
+.gambartravel:hover {
+    background: #cecfd0;
+    text-decoration: none;
+}
+
+.fonttravel{
+    font-style: open sans;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*css untuk border oren*/
+ 
+.banner-container {
+    width: auto; /* Gunakan lebar penuh viewport */
+    height: 139px;
+    background: #f7931e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; /* Memberi jarak kiri dan kanan pada konten */
+    border-radius: 5px;
+    position: relative;
+    
+}
+.new{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.cta-button {
+    background: white;
+    color: #f7931e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 100px; /* Atur jarak dari kanan */
+    top: 50%; 
+}
+/*kolom oren*/
+/* Kolom 5 Section */
+.kolom5 {
+    background-color: #ff7f2a;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.kolom5-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.kolom5-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.kolom5-text h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.kolom5-text p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.btn-daftar {
+    background-color: white;
+    color: #ff7f2a;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-daftar:hover {
+    background-color: #e66700;
+    color: white;
+}
+/*CSS layanan digital fastpay*/
+.kolom8 {
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Background putih */
+    border: none; /* Menghilangkan garis samping */
+}
+
+.kolom8 h3 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.kolom8 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(209, 101, 101);
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #ffffff; /* Background putih untuk setiap item */
+    border: 1px solid #ffffff; /* Mengatur border menjadi putih */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.service-item img {
+    width: 100%; /* Adjust image size to fill the background */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.service-item h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #666;
+}
+.service-item img {
+    width: 100%; /* Buat gambar lebar 100% dari elemen induknya */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+    max-width: 200px; /* Atur lebar maksimum jika diperlukan */
+    display: block; /* Pastikan gambar sebagai elemen blok untuk pengaturan margin */
+    margin: 0 auto; /* Pusatkan gambar jika diperlukan */
+}
+
+.fontnya{
+    font-size: 18px;
+    color: #000000;
+     font-style: open sans;
+    font-weight: bold;
+}
+
+/*CSS mengapa bergabung bersama fastpay*/
+
+.judulnya{
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+  }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 27px; /* Memberi jarak kiri dan kanan pada konten */
+    
+  }
+  
+  .card {
+    width: 410px;
+    margin: 20px;
+    margin-bottom: 1px; /* Jarak bawah */
+      
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 12px;
+    width: 12px;
+    border-radius: 30%;  
+    align-items: center;
+    display: flex; 
+
+  }
+  .fontjudul{
+   font-size: 18px;
+   font-style: open sans;
+   font-weight: bold;
+
+  }
+  .font{
+   font-size: 14px;
+   font-style: open sans;
+      Height:71.64px;
+      margin-right: 5px;
+  }
+  
+  /*CSS Cerita Sukses Mitra Fastpay*/
+
+.fontatas{
+    text-align: center;
+    color: #7d7272;
+    font-size: 20px;
+    font-style: open sans;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+    max-width: 900px; /* Atur max-width agar responsif */
+    margin: 0 auto; /* Centered */
+    display: block;
+}
+
+/*css review*/
+.testimonial-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch; /* Pastikan testimonial memiliki tinggi yang sama */
+    padding: 50px;
+    
+}
+
+.testimonial {
+    width: 30%; /* Menjaga lebar tetap sama */
+    max-width: 350px; /* Menambahkan lebar maksimum untuk menghindari terlalu besar */
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek visual */
+    display: flex; /* Gunakan flex untuk konten di dalam testimonial */
+    flex-direction: column; /* Mengatur flex agar konten disusun secara vertikal */
+    justify-content: space-between; /* Mengatur jarak antara elemen di dalam testimonial */
+    position: relative; /* Mengatur posisi relatif */
+    /*left: -2%;  /* Menggeser testimonial sedikit ke kiri */
+}
+
+.testimonial-content {
+    position: relative;
+    flex-grow: 1; /* Membuat konten testimonial tumbuh untuk mengisi ruang */
+   
+}
+
+.quote {
+    font-size: 120px;
+    width: 50px;
+    color: #00b1e4;
+    position: absolute;
+    top: -140px;
+    left: -15px;
+}
+
+.testimonial-text h3 {
+    font-size: 18px;
+    margin-bottom: 1px;
+    color: #333;
+}
+
+.testimonial-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/*
+.testimonial-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+   
+}
+
+.testimonial {
+    width: 250px;
+    padding: 30px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    align-items: center;
+
+}
+
+.testimonial-content {
+    position: relative;
+}
+
+.quote {
+    font-size: 120px;
+    width: 50px;
+    color: #00b1e4;
+    position: absolute;
+    top: -140px;
+    left: -15px;
+}
+
+.testimonial-text h3 {
+    font-size: 18px;
+    margin-bottom: 1px;
+    color: #333;
+}
+
+.testimonial-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/*CSS bagian sekat biru*/
+.footer-section {
+    background-color: #48b6ee;
+    color: white;
+    padding: 40px;
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    width: 23%;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.gambarspedcash{
+width: 240px;
+height: 79.8px;
+
+}
+.gambargoogle{
+    width: 75px;
+}
+.iconmedsos{
+  width: 40px;
+}
+.gmbrplystore{
+width: 170px;
+}
+
+
+
