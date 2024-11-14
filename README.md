@@ -1,8 +1,8 @@
 <h1>Landing  Travel Fastpay </h1>
-Ini adalah proyek website landing page untuk layanan travel Fastpay. Website ini dibuat dengan HTML dan CSS menggunakan Visual Studio Code sebagai code editor.
+<li>Ini adalah proyek website landing page untuk layanan travel Fastpay. Website ini dibuat dengan HTML dan CSS menggunakan Visual Studio Code sebagai code editor.
 
 <h1>Deskripsi</h1>
-Website ini bertujuan untuk memberikan informasi dan layanan tiket perjalanan online untuk agen tiket Fastpay. Website ini memiliki beberapa bagian seperti layanan tiket, testimoni, layanan bisnis digital, dan cerita sukses dari para mitra Fastpay. Website ini dioptimalkan untuk pengguna desktop .
+<li>Website ini bertujuan untuk memberikan informasi dan layanan tiket perjalanan online untuk agen tiket Fastpay. Website ini memiliki beberapa bagian seperti layanan tiket, testimoni, layanan bisnis digital, dan cerita sukses dari para mitra Fastpay. Website ini dioptimalkan untuk pengguna desktop .
 
 <h1>Fitur</h1>
 <li>Navigasi Utama: Terdapat menu navigasi untuk mempermudah akses ke berbagai bagian website, seperti Home, Layanan, Artikel, Testimoni, Aktivasi, dan tombol untuk Masuk dan Daftar.
