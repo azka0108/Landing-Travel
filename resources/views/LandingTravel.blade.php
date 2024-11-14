@@ -352,6 +352,7 @@
                 <h5>DOWNLOAD APLIKASI</h5>
                 <img class="gmbrplystore" src="img/Googleplay.png.png" alt="gambar playstore" />
             </div>
+            azka
 
             <div class="footer-column">
                 <p class="fontjudul">DIDUKUNG OLEH</p>
